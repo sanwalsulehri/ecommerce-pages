@@ -1,9 +1,12 @@
 import React from 'react'
 import Form from './components/Form'
+import Cart from './components/Cart'
 
 const page = () => {
   return (
     <>
+    
+{/*
     <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
     <div className="md:hidden mb-6">
   <select 
@@ -20,7 +23,7 @@ const page = () => {
     <div className="flex flex-col md:grid md:grid-cols-3 gap-6">
     <Form />
       <div className="order-2 md:order-1 md:col-span-1   rounded-lg max-w-xs ">
-            {/* Navigation - Hidden on mobile, visible on desktop */}
+            
             <nav className="hidden md:block space-y-1 mb-8 border text-[##232936] text-[14px] py-2 pr-3 ">
               <a href="#" className="block   py-2 border-l-4  px-3 bg-[#F7F7F7] border-[#213550] ">Contact Us</a>
               <a href="#" className="block   py-2 px-3 ">Privacy & Cookies Policy</a>
@@ -30,7 +33,7 @@ const page = () => {
               <a href="#" className="block   py-2 px-3 ">Create Quotations</a>
             </nav>
 
-            {/* Help Content */}
+            
             <div className="md:block mt-[40px] bg-[#F7F7F7] px-4 py-6">
               <h3 className="text-lg font-medium text-gray-900 mb-4">Need Help?</h3>
               <p className="text-[#6B7177] text-[14px] mb-4">
@@ -63,9 +66,11 @@ const page = () => {
           </div>
           </div>
           </div>
+        
+          */}
 
 
-          
+          <Cart />
     </>
   )
 }
