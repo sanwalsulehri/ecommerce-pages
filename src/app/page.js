@@ -1,6 +1,8 @@
 import React from 'react'
 import Form from './components/Form'
 import Cart from './components/Cart'
+import MoreCart from './components/MoreCart'
+import Orders from './components/Orders'
 
 const page = () => {
   return (
@@ -70,7 +72,8 @@ const page = () => {
           */}
 
 
-          <Cart />
+         
+          <MoreCart />
     </>
   )
 }
