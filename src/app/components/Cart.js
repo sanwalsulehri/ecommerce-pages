@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Sidebar = () => {
   return (
-    <div className="w-[275px] ml-[50px] mt-[50px] h-fit bg-white border px-4 py-4">
+    <div className="w-[275px] md:block hidden ml-[50px] mt-[50px] h-fit bg-white border px-4 py-4">
       {/* Profile Section */}
       <div className="flex items-center justify-center space-x-3 mb-6">
         <div className="">
@@ -103,9 +103,9 @@ const Cart = () => {
   const [quantity, setQuantity] = useState(0);
 
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <Sidebar />
-      <div className="flex-1">
+      <div className="flex-1 px-4 md:px-8 py-4 md:py-6">
         <div className="max-w-4xl mx-auto p-4">
           {/* Header Section */}
           <h2 className="text-xl font-semibold mb-4">สั่งซื้อด่วน</h2>
@@ -116,27 +116,36 @@ const Cart = () => {
           </p>
 
           {/* Order Form Table */}
-          <div className="overflow-x-auto">
-            <table className="w-full mb-4">
+          <div className="">
+            <div className="overflow-x-auto">
+            <table className="w-full mb-2">
               <thead>
                 <tr className="text-[12px] text-[#232936]">
-                  <th className="text-left font-normal tracking-widest py-2 w-[40%]">ENTER SKU OR PRODUCT NAME</th>
-                  <th className="text-center font-normal tracking-widest py-2 w-[25%]">SELLER</th>
-                  <th className="text-center font-normal tracking-widest py-2 w-[20%]">QTY</th>
-                  <th className="text-right font-normal tracking-widest py-2 w-[10%]">SUBTOTAL</th>
+                  <th className="text-left font-normal tracking-widest py-2 min-w-[240px] ">
+                    ENTER SKU OR PRODUCT NAME
+                  </th>
+                  <th className="text-center font-normal tracking-widest py-2 min-w-[200px] ">
+                    SELLER
+                  </th>
+                  <th className="text-center font-normal tracking-widest py-2 min-w-[100px] ">
+                    QTY
+                  </th>
+                  <th className="text-right font-normal tracking-widest py-2 ">
+                    SUBTOTAL
+                  </th>
                   <th className="w-[5%]"></th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="text-[#737373] text-[14px] ">
-                  <td className="py-2 pr-2 w-[45%]">
+                  <td className="py-2 pr-2 -w-[40%]">
                     <input
                       type="text"
-                      placeholder="Enter SKU or Product name"
+                      placeholder='Enter SKU or Product name'
                       className="w-full border rounded px-3 py-2"
                     />
                   </td>
-                  <td className="py-2 px-2 w-[40%]">
+                  <td className="py-2 px-2 w-[30%]">
                     <div className="relative">
                       <select
                         className="w-full border rounded px-3 py-2 appearance-none"
@@ -146,8 +155,19 @@ const Cart = () => {
                         <option>SAHA OFFICE</option>
                       </select>
                       <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
-                        <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg
+                          width="12"
+                          height="6"
+                          viewBox="0 0 12 6"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 0.5L6 5.5L11 0.5"
+                            stroke="#737373"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </svg>
                       </div>
                     </div>
@@ -163,7 +183,11 @@ const Cart = () => {
                       <input
                         type="number"
                         value={quantity}
-                        onChange={(e) => setQuantity(Math.max(0, parseInt(e.target.value) || 0))}
+                        onChange={(e) =>
+                          setQuantity(
+                            Math.max(0, parseInt(e.target.value) || 0)
+                          )
+                        }
                         className="w-10 text-center focus:outline-none"
                       />
                       <button
@@ -175,53 +199,69 @@ const Cart = () => {
                     </div>
                   </td>
                   <td className="py-2  text-right w-[5%]">
-                    <div className="h-full w-full bg-[#F7F7F7] py-5">
-                    </div>
+                    <div className="h-full w-full bg-[#F7F7F7] py-5"></div>
                     {/* Subtotal calculation would go here */}
                   </td>
                   <td className="py-2 pl-4 w-[5%]">
                     <button className="p-2">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.5 5H4.16667H17.5" stroke="#232936" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M6.66602 4.99984V3.33317C6.66602 2.89114 6.84161 2.46722 7.15417 2.15466C7.46673 1.8421 7.89065 1.6665 8.33268 1.6665H11.666C12.108 1.6665 12.532 1.8421 12.8445 2.15466C13.1571 2.46722 13.3327 2.89114 13.3327 3.33317V4.99984M15.8327 4.99984V16.6665C15.8327 17.1085 15.6571 17.5325 15.3445 17.845C15.032 18.1576 14.608 18.3332 14.166 18.3332H5.83268C5.39065 18.3332 4.96673 18.1576 4.65417 17.845C4.34161 17.5325 4.16602 17.1085 4.16602 16.6665V4.99984H15.8327Z" stroke="#232936" strokeLinecap="round" strokeLinejoin="round"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.5 5H4.16667H17.5"
+                          stroke="#232936"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M6.66602 4.99984V3.33317C6.66602 2.89114 6.84161 2.46722 7.15417 2.15466C7.46673 1.8421 7.89065 1.6665 8.33268 1.6665H11.666C12.108 1.6665 12.532 1.8421 12.8445 2.15466C13.1571 2.46722 13.3327 2.89114 13.3327 3.33317V4.99984M15.8327 4.99984V16.6665C15.8327 17.1085 15.6571 17.5325 15.3445 17.845C15.032 18.1576 14.608 18.3332 14.166 18.3332H5.83268C5.39065 18.3332 4.96673 18.1576 4.65417 17.845C4.34161 17.5325 4.16602 17.1085 4.16602 16.6665V4.99984H15.8327Z"
+                          stroke="#232936"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                       </svg>
                     </button>
                   </td>
                 </tr>
-              </tbody>
-            </table>
+                </tbody>
+                </table>
+            </div>
           </div>
 
           {/* Add More Rows Link */}
-          <div className="text-center mb-6">
-            <button className="text-[#0067C7] ">
+          <div className="text-center my-6 bg-[#F4F9FF] py-2">
+            <button className="text-blue-600  hover:text-blue-800">
               Add more rows
             </button>
           </div>
 
           {/* Add To Cart Button */}
-          <div className="text-right mb-8">
-            <button className="bg-[#213550] text-white px-28 py-3 rounded-full">
+          <div className="text-right mb-8 ">
+            <button className="bg-[#213550] w-[100%] md:w-fit text-white px-28 py-3 rounded-full">
               Add To Cart
             </button>
           </div>
 
           {/* Copy/Paste Section */}
-          <div className="mb-8 flex justify-between">
+          <div className="mb-8 md:flex justify-between">
             <div>
             <h3 className="font-medium tracking-wide mb-2">Copy/Paste Skus</h3>
             <p className="text-[#6B7177]">Sku's code</p>
             </div>
             <textarea
-              className=" w-[80%] border-[#DEE7EF] border rounded p-3 h-24"
+              className=" w-[100%] md:w-[80%] border-[#DEE7EF] border rounded p-3 h-24"
             />
           </div>
-          <div className="text-right mt-2">
-              <button className="border rounded-full px-16 border-[#213550] text-[#213550] py-2">Validate</button>
+          <div className="text-right mt-2  ">
+              <button className="border w-[100%] md:w-fit rounded-full px-16 border-[#213550] text-[#213550] py-2">Validate</button>
             </div>
 
           {/* Upload Section */}
-          <div className="flex">
+          <div className="md:flex mt-[20px] md:mt-[0px]">
             <div>
             <h3 className="font-medium mb-2">Upload</h3>
             <p className="text-sm text-gray-600 mb-2">
@@ -232,7 +272,7 @@ const Cart = () => {
               Click here to download a spreadsheet model
             </a>
             </div>
-            <div className="border-2 w-[60%] mx-auto  border-dashed rounded-lg py-10 px-8 mt-4 text-center">
+            <div className="border-2 w-[100%] md:w-[60%] ml-auto  border-dashed border-[#464E5FB2] rounded-lg py-10 px-8 mt-4 text-center">
             <svg width="25" height="24" className="mx-auto" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.5 2H6.5C5.96957 2 5.46086 2.21071 5.08579 2.58579C4.71071 2.96086 4.5 3.46957 4.5 4V20C4.5 20.5304 4.71071 21.0391 5.08579 21.4142C5.46086 21.7893 5.96957 22 6.5 22H18.5C19.0304 22 19.5391 21.7893 19.9142 21.4142C20.2893 21.0391 20.5 20.5304 20.5 20V8L14.5 2Z" stroke="#213550" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M14.5 2V8H20.5" stroke="#213550" stroke-linecap="round" stroke-linejoin="round"/>
@@ -248,7 +288,7 @@ const Cart = () => {
             
           </div>
           <div className="text-right mt-2">
-              <button className="border rounded-full px-16 border-[#213550] text-[#213550] py-2">Validate</button>
+              <button className="border w-[100%] md:w-fit rounded-full px-16 border-[#213550] text-[#213550] py-2">Validate</button>
             </div>
         </div>
       </div>
