@@ -3,7 +3,7 @@ import React from 'react'
 const Form = () => {
   return (
     <>
-     <div className="order-1 md:order-2 md:col-span-2   rounded-lg ">
+     <div className=" md:col-span-2   rounded-lg ">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact us</h2>
             <p className="text-gray-600 mb-8">
               Lorem ipsum dolor sit amet, adipiscing rhoncus litora ut dui morbi, mattis nescetur amet, ut justo
