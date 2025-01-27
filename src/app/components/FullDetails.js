@@ -235,7 +235,7 @@ const FullDetails = () => {
         
       </h1>
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง <br/> ตราช้าง 121A5 สัน <br/>
-       3 นิ้ว  </span>
+       3 นิ้ว 
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
          <br />
@@ -291,7 +291,7 @@ const FullDetails = () => {
         
       </h1>
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง <br/> ตราช้าง 121A5 สัน <br/>
-       3 นิ้ว  </span>
+       3 นิ้ว
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
          <br/>
@@ -351,7 +351,7 @@ const FullDetails = () => {
         </div>
       </div>
     </div>
-
+</div>
     <div className="border-b  border-gray-500 ">
       <h1 className="font-semibold text-lg relative m-4">2 รายการ
         <span className="font-normal  ml-42 absolute mt-20">จำนวน</span>
@@ -359,7 +359,7 @@ const FullDetails = () => {
         
       </h1>
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง <br/> ตราช้าง 121A5 สัน <br/>
-       3 นิ้ว  </span>
+       3 นิ้ว 
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
          <br/>
@@ -415,7 +415,7 @@ const FullDetails = () => {
         
       </h1>
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง <br/> ตราช้าง 121A5 สัน <br/>
-       3 นิ้ว  </span>
+       3 นิ้ว  
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
          <br/>
