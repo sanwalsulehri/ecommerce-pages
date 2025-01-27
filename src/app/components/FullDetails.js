@@ -319,7 +319,6 @@ const FullDetails = () => {
       <p className="ml-62">ค่าจัดส่ง: <span className="ml-10">THB 10.00</span></p>
     </div>
 
-  </div>
   
   
 <div className="mt-9 border-b border-gary-200">
@@ -388,7 +387,6 @@ const FullDetails = () => {
       <p className="ml-62">ค่าจัดส่ง: <span className="ml-10">THB 10.00</span></p>
     </div>
 
-  </div>
   
 <div className="mx-4 mt-10 border border-gray-200">
     <div>
