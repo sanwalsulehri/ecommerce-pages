@@ -4,6 +4,10 @@ import Form from './components/Form';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions';
 import ShippingReturns from './components/ShippingReturns';
+import BusinessRegistration from './components/BusinessRegistration';
+import BusnessDetails from './components/BusnessDetails';
+import Organization from './components/Organization';
+import OrderDetails from './components/OrdersDetails';
 
 const Page = () => {
   const tabs = [
@@ -83,6 +87,9 @@ const Page = () => {
           {renderActiveComponent()}
         </div>
       </div>
+
+   <OrderDetails />
+      
     </>
   );
 };
