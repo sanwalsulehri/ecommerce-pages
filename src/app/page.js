@@ -86,7 +86,7 @@ const Page = () => {
           </div>
           {renderActiveComponent()}
         </div>
-      </div>
+      </div>*/}
 
    <OrderDetails />
       
