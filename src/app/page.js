@@ -10,25 +10,25 @@ import Organization from './components/Organization';
 import OrderDetails from './components/OrdersDetails';
 
 const Page = () => {
-  const tabs = [
-    { label: 'Contact Us', component: <Form />, key: 'contact' },
-    { label: 'Privacy & Cookies Policy', component: <PrivacyPolicy />, key: 'privacy' },
-    { label: 'Terms & Conditions', component: <TermsConditions />, key: 'terms' },
-    { label: 'Shipping & Returns', component: <ShippingReturns />, key: 'shipping' },
-    { label: 'How to order?', component: '', key: 'order' },
-    { label: 'Create Quotations', component: '', key: 'quotations' },
-  ];
+  // const tabs = [
+  //   { label: 'Contact Us', component: <Form />, key: 'contact' },
+  //   { label: 'Privacy & Cookies Policy', component: <PrivacyPolicy />, key: 'privacy' },
+  //   { label: 'Terms & Conditions', component: <TermsConditions />, key: 'terms' },
+  //   { label: 'Shipping & Returns', component: <ShippingReturns />, key: 'shipping' },
+  //   { label: 'How to order?', component: '', key: 'order' },
+  //   { label: 'Create Quotations', component: '', key: 'quotations' },
+  // ];
 
-  const [activeTab, setActiveTab] = useState(tabs[0].key);
+  // const [activeTab, setActiveTab] = useState(tabs[0].key);
 
-  const renderActiveComponent = () => {
-    const activeTabObject = tabs.find(tab => tab.key === activeTab);
-    return activeTabObject ? activeTabObject.component : null;
-  };
+  // const renderActiveComponent = () => {
+  //   const activeTabObject = tabs.find(tab => tab.key === activeTab);
+  //   return activeTabObject ? activeTabObject.component : null;
+  // };
 
   return (
     <>
-      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+      {/* <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div className="md:hidden mb-6">
           <select
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none"
@@ -86,7 +86,7 @@ const Page = () => {
           </div>
           {renderActiveComponent()}
         </div>
-      </div>
+      </div>*/}
 
    <OrderDetails />
       
