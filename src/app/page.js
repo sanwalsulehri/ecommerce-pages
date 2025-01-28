@@ -21,6 +21,7 @@ import SideBar from './components/SideBar';
 import Table from './components/Table';
 import TableDetails from './components/TableDetails';
 import TermsConditions from './components/TermsConditions';
+import Navbar from './components/Navbar';
 
 
 const components = {
@@ -50,6 +51,7 @@ const Page = () => {
 
   return (
     <div className="flex min-h-screen bg-gray-200 flex-col gap-3 p-5">
+      <Navbar />
       <div className="flex gap-4 flex-wrap">
         <Link href={'/ContactPage'}>
       <button
