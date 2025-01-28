@@ -53,19 +53,19 @@ const FullDetails = () => {
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -222,7 +222,7 @@ const FullDetails = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -278,7 +278,7 @@ const FullDetails = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -346,7 +346,7 @@ const FullDetails = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -402,7 +402,7 @@ const FullDetails = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>

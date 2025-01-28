@@ -78,8 +78,8 @@ const DetailsPage = () => {
   <h1>เลือกทุกรายการในรถเข็น</h1></div>
   <div>
     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.5 5.5H4.16667H17.5" stroke="#232936" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.66602 5.49935V3.83268C6.66602 3.39065 6.84161 2.96673 7.15417 2.65417C7.46673 2.34161 7.89065 2.16602 8.33268 2.16602H11.666C12.108 2.16602 12.532 2.34161 12.8445 2.65417C13.1571 2.96673 13.3327 3.39065 13.3327 3.83268V5.49935M15.8327 5.49935V17.166C15.8327 17.608 15.6571 18.032 15.3445 18.3445C15.032 18.6571 14.608 18.8327 14.166 18.8327H5.83268C5.39065 18.8327 4.96673 18.6571 4.65417 18.3445C4.34161 18.032 4.16602 17.608 4.16602 17.166V5.49935H15.8327Z" stroke="#232936" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.5 5.5H4.16667H17.5" stroke="#232936" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.66602 5.49935V3.83268C6.66602 3.39065 6.84161 2.96673 7.15417 2.65417C7.46673 2.34161 7.89065 2.16602 8.33268 2.16602H11.666C12.108 2.16602 12.532 2.34161 12.8445 2.65417C13.1571 2.96673 13.3327 3.39065 13.3327 3.83268V5.49935M15.8327 5.49935V17.166C15.8327 17.608 15.6571 18.032 15.3445 18.3445C15.032 18.6571 14.608 18.8327 14.166 18.8327H5.83268C5.39065 18.8327 4.96673 18.6571 4.65417 18.3445C4.34161 18.032 4.16602 17.608 4.16602 17.166V5.49935H15.8327Z" stroke="#232936" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
   </div>
@@ -103,7 +103,7 @@ const DetailsPage = () => {
 </div>
 <div className="flex justify-center items-center gap-5"><p>ส่วนลด</p>
 <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.25 11L8.75 7.5L5.25 4" stroke="#0067C7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.25 11L8.75 7.5L5.25 4" stroke="#0067C7" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
 </div>
@@ -144,7 +144,7 @@ const DetailsPage = () => {
   <button>สร้างใบเสนอราคา  </button>
 
 <svg width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.5 9L4.5 5L0.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.5 9L4.5 5L0.5 1" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
 
