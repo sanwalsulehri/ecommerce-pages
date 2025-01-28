@@ -17,8 +17,8 @@ const Information = () => {
               <path
                 d="M1 13L7 7L1 1"
                 stroke="#6B7177"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
 
@@ -37,7 +37,7 @@ const Information = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_19410_29712)">
+                <g clipPath="url(#clip0_19410_29712)">
                   <rect
                     width="14"
                     height="14"

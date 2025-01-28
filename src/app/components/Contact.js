@@ -52,19 +52,19 @@ const Contact = () => {
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="#6B7177" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 18L15 12L9 6" stroke="#6B7177" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -81,7 +81,7 @@ const Contact = () => {
         <span>#3957003245532</span>
       </h1>
       <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </div>
     <h1 className="mt-2">การรับเงินคืน</h1>
@@ -96,7 +96,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
 
@@ -107,7 +107,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -120,7 +120,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -144,7 +144,7 @@ const Contact = () => {
         <span>#3957003245532</span>
       </h1>
       <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </div>
     
@@ -156,7 +156,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
 
@@ -169,7 +169,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -182,7 +182,7 @@ const Contact = () => {
         <span>#3957003245532</span>
       </h1>
       <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </div>
     
@@ -194,7 +194,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
@@ -204,7 +204,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -217,7 +217,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
       <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
@@ -227,7 +227,7 @@ const Contact = () => {
           <span>#3957003245532</span>
         </h1>
         <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </div>
@@ -236,11 +236,11 @@ const Contact = () => {
     <p className="mt-5 text-sm text-gray-500">ขนาดไฟล์ที่อัพโหลดต้องไม่เกิน 5 MB รองรับนามสกุลไฟล์.pdf และ .jpg</p>
     <div className="flex flex-col items-center justify-center border border-dotted text-gray-500 m-12 py-5 text-xs">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#213550" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M14 2V8H20" stroke="#213550" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M16 13H8" stroke="#213550" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M16 17H8" stroke="#213550" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M10 9H9H8" stroke="#213550" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M14 2V8H20" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M16 13H8" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M16 17H8" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M10 9H9H8" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
       <br />
       <h1>เลือกไฟล์ ที่ต้องการอัปโหลด</h1>

@@ -185,8 +185,8 @@ const OrderDetails = () => {
               <path
                 d="M11 5.5L6 0.5L1 5.5"
                 stroke="#737373"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -349,8 +349,8 @@ const OrderDetails = () => {
               <path
                 d="M11 5.5L6 0.5L1 5.5"
                 stroke="#737373"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>

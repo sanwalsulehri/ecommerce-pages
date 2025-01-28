@@ -97,7 +97,7 @@ const DetailsInfo = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -112,7 +112,7 @@ const DetailsInfo = () => {
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง          <br />
  ตราช้าง 121A5 สัน          <br />
 
-       3 นิ้ว  </span>
+       3 นิ้ว  
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
                   <br />
@@ -146,6 +146,7 @@ const DetailsInfo = () => {
     </div>
 
   </div>
+  </div>
   
 <div className="mx-4 mt-10 border border-gray-200">
     <div>
@@ -161,7 +162,7 @@ const DetailsInfo = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -230,7 +231,7 @@ const DetailsInfo = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -245,7 +246,7 @@ const DetailsInfo = () => {
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง          <br />
  ตราช้าง 121A5 สัน          <br />
 
-       3 นิ้ว  </span>
+       3 นิ้ว  
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
                   <br />
@@ -279,6 +280,8 @@ const DetailsInfo = () => {
       <p className="ml-62">ค่าจัดส่ง: <span className="ml-10">THB 10.00</span></p>
     </div>
 
+    </div>
+
   
 <div className="mx-4 mt-10 border border-gray-200">
     <div>
@@ -294,7 +297,7 @@ const DetailsInfo = () => {
 
         <div className="absolute top-1/2 right-4 -translate-y-1/2">
           <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11 5.5L6 0.5L1 5.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
@@ -309,7 +312,7 @@ const DetailsInfo = () => {
       <h1 className="mt-14 ml-12 relative">แฟ้มสันกว้าง          <br />
  ตราช้าง 121A5 สัน          <br />
 
-       3 นิ้ว  </span>
+       3 นิ้ว
        <span className="absolute ml-48 ">1 หน่วย</span>
        <span className="absolute ml-80 text-gray-500 text-xs">฿2,403.00
                   <br />
