@@ -5,7 +5,7 @@ const Email = () => {
 <div className="">
   <div className="h-[20vh] w-[100%] bg-[#E8EFF8]">
     <div className="w-[100%] bg-white">
-      <h1 className="mx-[17%] transition-all duration-300 ease-in-out">Not Displaying Correctly? <span className="p-1 underline">View Online</span></h1>
+      <h1 className=" transition-all duration-300 ease-in-out">Not Displaying Correctly? <span className="p-1 underline">View Online</span></h1>
     </div>
     <div className="mx-[30%] mt-10 transition-all duration-300 ease-in-out ">
       <svg width="132" height="28" viewBox="0 0 132 28" fill="none" xmlns="http://www.w3.org/2000/svg">
