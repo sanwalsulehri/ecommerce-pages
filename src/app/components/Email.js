@@ -36,7 +36,7 @@ const Email = () => {
   </div>
   <div className="mx-18 mt-22">
     <p className="text-[#24272A]">Order #23891090</p>
-    <h1 className="my-3 text-4xl font-bold text-[#24272A] md:text-7xl lg:text-8xl">
+    <h1 className="my-3 text-4xl font-bold text-[#24272A] md:text-6xl">
       Thank you <br />
       for your order
     </h1>
@@ -45,9 +45,9 @@ const Email = () => {
       We are getting your order ready to be shipped.
     </p>
   </div>
-  <div className="mx-12 mt-12">
+  <div className="mr-12 mt-12">
     <button className="mx-2 rounded-full bg-[#213550] px-12 py-3 text-white">View Your Order</button>
-    <span>or</span>
+    <span className='mx-10'>or</span>
     <a className="mx-2 overflow-auto text-sky-800 underline" href="#">Contact Us</a>
   </div>
   <table className="m-12">
