@@ -47,6 +47,7 @@ const components = {
 };
 
 const Page = () => {
+  
   const [activeComponent, setActiveComponent] = useState(null);
 
   return (
@@ -60,6 +61,24 @@ const Page = () => {
             ContactPage
           </button>
           </Link>
+          <Link href={'/APage'}>APage</Link>
+          <Link href={'/APage2'}>APage2</Link>
+          <Link href={'/checkout'}>Checkout</Link>
+          <Link href={'/contactPage'}>ContactPage</Link>
+          <Link href={'/DelivryDetails'}>DelivryDetails</Link>
+          <Link href={'/LtwoPfive'}>LtwoPfive</Link>
+          <Link href={'/LtwoPfour'}>LtwoPfour</Link>
+          <Link href={'/LtwoPthree'}>LtwoPthree</Link>
+          <Link href={'/LtwoPtwo'}>LtwoPtwo</Link>
+          <Link href={'/OrganizationPage'}>OrganizationPage</Link>
+          <Link href={'/PrivacyPage'}>PrivacyPage</Link>
+          <Link href={'/Requotation'}>Requotation</Link>
+          <Link href={'/U1'}>U1</Link>
+          <Link href={'/U2'}>U2</Link>
+          <Link href={'/U3'}>U3</Link>
+          <Link href={'/U4'}>U4</Link>
+          <Link href={'/U5'}>U5</Link>
+          <Link href={'/U6'}>U6</Link>
         {Object.keys(components).map((componentName) => (
           <button
             key={componentName}
