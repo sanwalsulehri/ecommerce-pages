@@ -3,8 +3,9 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-    <div className="flex">
-  <div className="m-5 h-[110vh] w-[25vw] border border-gray-200">
+  
+  <div className="flex flex-wrap xl:flex-row xl:flex-nowrap h-fit">
+  <div className="m-5 h-[110vh] md:w-[25vw] w-full border border-gray-200">
     <div className="m-5 flex gap-4">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="m-2 size-12 rounded-full bg-gray-300 text-gray-500">
         <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
@@ -47,7 +48,9 @@ const Contact = () => {
   </div>
   
   
-  <div className="w-[70vw]">
+  <div className="sm:w-[70vw] ml-2.5 w-full">
+<div>
+
     <div className="m-5 flex gap-2">
       <div className="flex text-sm">
         <h1 className="text-gray-500">บัญชีของฉัน</h1>
@@ -74,7 +77,7 @@ const Contact = () => {
       </div>
     </div>
     
-    <div className="mx-9 mt-5 flex w-[45vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+    <div className=" mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
       <h1>
         หมายเลขคำสั่งซื้อ
         <br />
@@ -88,8 +91,8 @@ const Contact = () => {
     <div></div>
     
 
-    <div className="flex flex-wrap">
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+    <div className="flex gap-3 flex-wrap">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -100,7 +103,7 @@ const Contact = () => {
         </svg>
       </div>
 
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -112,8 +115,8 @@ const Contact = () => {
       </div>
     </div>
     
-    <div className="flex flex-wrap">
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+    <div className="flex gap-3 flex-wrap">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -124,7 +127,7 @@ const Contact = () => {
         </svg>
       </div>
 
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -137,7 +140,7 @@ const Contact = () => {
     </div>
     
     <h1 className="mt-5">ที่อยู่ที่ต้องการให้เข้ารับสินค้าคืน</h1>
-    <div className="mx-9 mt-5 flex w-[45vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+    <div className=" mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
       <h1>
         หมายเลขคำสั่งซื้อ
         <br />
@@ -148,8 +151,8 @@ const Contact = () => {
       </svg>
     </div>
     
-    <div className="flex flex-wrap">
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+    <div className="flex gap-3 flex-wrap">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -162,7 +165,7 @@ const Contact = () => {
 
       
 
-      <div className="mx-5 mt-5 flex w-[25vw] items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
+      <div className="className mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -175,7 +178,7 @@ const Contact = () => {
     </div>
     
     <h1 className="mt-5">ที่อยู่ที่ต้องการให้เข้ารับสินค้าคืน</h1>
-    <div className="mx-9 mt-5 flex w-[55vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
+    <div className=" mt-5 flex max-w-[900px] w-full items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
       <h1>
         หมายเลขคำสั่งซื้อ
         <br />
@@ -186,8 +189,8 @@ const Contact = () => {
       </svg>
     </div>
     
-    <div className="flex flex-wrap justify-between">
-      <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
+    <div className="flex flex-wrap gap-3">
+      <div className=" mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -197,7 +200,7 @@ const Contact = () => {
           <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
-      <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
+      <div className=" mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -209,8 +212,8 @@ const Contact = () => {
       </div>
     </div>
     
-    <div className="flex flex-wrap justify-between">
-      <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
+    <div className="flex gap-3 flex-wrap ">
+      <div className=" mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -220,7 +223,7 @@ const Contact = () => {
           <path d="M1 0.5L6 5.5L11 0.5" stroke="#737373" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
-      <div className="mx-2 mt-5 flex w-[30vw] items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
+      <div className="mt-5 flex max-w-[444px] w-full items-center justify-between border border-gray-400 bg-gray-200 px-4 text-sm text-gray-500">
         <h1>
           หมายเลขคำสั่งซื้อ
           <br />
@@ -234,7 +237,7 @@ const Contact = () => {
     
     <h1 className="mt-5">รูปภาพประกอบหลักฐานการคืนสินค้า</h1>
     <p className="mt-5 text-sm text-gray-500">ขนาดไฟล์ที่อัพโหลดต้องไม่เกิน 5 MB รองรับนามสกุลไฟล์.pdf และ .jpg</p>
-    <div className="flex flex-col items-center justify-center border border-dotted text-gray-500 m-12 py-5 text-xs">
+    <div className="flex flex-col items-center justify-center border border-dotted text-gray-500 max-w-[444px] w-full mb-7 mt-7 py-5 text-xs">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
         <path d="M14 2V8H20" stroke="#213550" strokeLinecap="round" strokeLinejoin="round" />
@@ -246,11 +249,10 @@ const Contact = () => {
       <h1>เลือกไฟล์ ที่ต้องการอัปโหลด</h1>
     </div>
   </div>
-  
-</div>
-<div className="flex flex-col justify-center items-center">
+
+  <div className="flex flex-col w-full justify-center items-center">
   <h1>เลือกรายการและจำนวนสินค้าที่ต้องการคืน</h1>
- <div className="bg-white p-6 rounded-xl shadow-md max-w-6xl mx-auto">
+ <div className="bg-white p-6 rounded-xl  max-w-6xl mx-auto">
   
   <div className="mb-8">
     <h2 className="text-lg font-semibold mb-4">ร้านค้า: SAHA OFFICE</h2>
@@ -315,9 +317,15 @@ const Contact = () => {
     </div>
   </div>
 </div>
+</div>
 
 
 </div>
+
+  
+</div>
+
+
 
 
     </>
