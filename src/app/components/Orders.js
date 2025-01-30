@@ -96,6 +96,7 @@ const Sidebar = () => {
               </tbody>
             </table>
           </div>
+
         </div>
       </div>
     );
