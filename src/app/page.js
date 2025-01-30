@@ -73,6 +73,7 @@ const Page = () => {
           <Link href={'/OrgnizationPage'}>OrganizationPage</Link>
           <Link href={'/PrivacyPage'}>PrivacyPage</Link>
           <Link href={'/ReQuotation'}>Requotation</Link>
+          
           <Link href={'/U1'}>U1</Link>
           <Link href={'/U2'}>U2</Link>
           <Link href={'/U3'}>U3</Link>
